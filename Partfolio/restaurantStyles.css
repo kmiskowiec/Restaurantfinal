@@ -1,0 +1,83 @@
+/* Common elements across all pages */
+h1 {
+line-height: 30px;
+color: #F23F45; /* Raw by  Pennington – colourlovers.com */
+top: 50%;
+				left: 50%;
+				margin: 20px 0 0 430px;
+				font: italic bold 50px/30px Georgia, serif;
+}
+hr {
+border-top: 3px double #A99890; /*Beyond the Decimal by smartalec – colourlovers.com */
+
+}
+footer {
+		text-align: center;
+		background-color: #fff;
+	border-top: 2px dashed #8c8b8b;	
+}
+
+/* unvisited link **Changed to nav-tabs
+a:link {
+    color: yellow;
+}
+
+ visited link 
+a:visited {
+    color: red;
+}
+
+ mouse over link 
+a:hover {
+    color: hotpink;
+}
+
+ selected link 
+a:active {
+    color: blue;
+}
+ delete line 
+a:link {
+    text-decoration: none; **Changed to nav-tabs */ 
+
+
+
+.nav-tabs{
+  background-color:lightblue;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+}
+.nav-tabs > li > a:hover{
+  background-color: #303136 !important;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+body {
+      	padding - top : 60px;
+      	padding - bottom : 40px;
+      }
+
+.body {
+  background-color: #333333;
+}
+html,
+body {
+  font-family: 'Droid Serif', serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+}
+.carousel-inner > .item > p,
+  .carousel-inner > .item > a > p {
+      width: 70%;
+      margin: auto;
+
